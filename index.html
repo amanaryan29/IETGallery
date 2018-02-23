@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <!-- <title>City Capture</title> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.1/css/foundation.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.1/css/foundation-float.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+
+
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="ietfavicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="./css/footer.css">
+      <link rel="stylesheet" href="css/gallery.css">
+      <link rel="stylesheet" href="css/ContactUs.css">
+      <link rel="stylesheet" href="css/nav.css">
+
+
+</head>
+
+<body>
+
+  <header class="callout large primary">
+  <div class="grid-container">
+    <h1>
+      <span><i class="fi-camera"></i></span> GALLERY
+    </h1>
+    <h4 class="subheader">IET (UK) Students' Chapter BIT Mesra.</h4>
+  </div>
+</header>
+
+<main>
+
+  <div class="grid-container grid-container-padded">
+
+    <!-- Menu -->
+    <div class="row">
+      <div class="small-4 column">
+        <div class="filter-info">
+          <p>Currently showing: <em><span id="current-content">All</span></em></p>
+        </div>
+      </div>
+
+      <div class="small-8 column clearfix">
+        <div class="float-right filter-options">
+          <a class="button gallery-button" href="#">Filter</a>
+        </div>
+      </div>
+
+      <div class="small-12 clearfix">
+        <div class="float-right gallery-menu">
+          <ul class="menu align-right">
+            <li><a id="all" href="#">All</a></li>
+            <li><a id="events" href="#">EVENTS</a></li>
+            <li><a id="workshops" href="#">WORKSHOPS</a></li>
+            <li><a id="swag" href="#">SWAG</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- add extra container element for Masonry -->
+    <div class="grid row">
+
+      <!-- add sizing element for columnWidth -->
+      <div class="grid-sizer small-6 medium-4 large-3 column"></div>
+      <!-- items use Bootstrap .col- classes -->
+      <div class="grid-item small-6 medium-4 large-3 column events">
+        <a href="/home/aman/Downloads/image_gallery/Events/01.JPG" data-lightbox="images" data-title="Codec,Pantheon 2017">
+          <!-- wrap item content in its own element -->
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/01.JPG" alt="Codec, Pantheon 2017">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column antananarivo events">
+        <a href="/home/aman/Downloads/image_gallery/Events/02.JPG" data-lightbox="images" data-title="UnZip Me, Pantheon 2017">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/02.JPG" alt="UnZip Me, Pantheon 2017">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column new-zealand swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/19.JPG" data-lightbox="images" data-title="Dabb, IET 2K14">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/19.JPG" alt="Dabb, IET 2K14">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column thailand workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/10.jpg" data-lightbox="images" data-title="C/C++ Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/10.jpg" alt="C/C++ Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column china workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/11.jpg" data-lightbox="images" data-title="Python Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/11.jpg" alt="Python Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column australia swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/20.JPG" data-lightbox="images" data-title="IET K14 & K15">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/20.JPG" alt="IET K14 & K15">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column egypt events">
+        <a href="/home/aman/Downloads/image_gallery/Events/03.JPG" data-lightbox="images" data-title="Google It Out">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/03.JPG" alt="Google It Out">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column australia swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/21.JPG" data-lightbox="images" data-title="After Meeting Fun">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/21.JPG" alt="After Meeting Fun">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column south-events events">
+        <a href="/home/aman/Downloads/image_gallery/Events/04.JPG" data-lightbox="images" data-title="Codec">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/04.JPG" alt="Codec">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column vietnam workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/12.jpg" data-lightbox="images" data-title="Python & Flask Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/12.jpg" alt="Python & Flask Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column zimbabwe events">
+        <a href="/home/aman/Downloads/image_gallery/Events/05.JPG" data-lightbox="images" data-title="BrainFookers">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/05.JPG" alt="BrainFookers">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column tasmania swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/22.JPG" data-lightbox="images" data-title="After Meeting Fun">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/22.JPG" alt="After Meeting Fun">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column hong-kong workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/13.JPG" data-lightbox="images" data-title="GIT & GSoc Talk">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/13.JPG" alt="GIT & GSoc Talk">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column indonesia workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/14.JPG" data-lightbox="images" data-title="Android Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/14.JPG" alt="Android Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column south-events events">
+        <a href="/home/aman/Downloads/image_gallery/Events/06.JPG" data-lightbox="images" data-title="Blitzkrieg">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/06.JPG" alt="Blitzkrieg">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column malaysia workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/15.JPG" data-lightbox="images" data-title="Android Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/15.JPG" alt="Android Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column mozambique events">
+        <a href="/home/aman/Downloads/image_gallery/Events/07.JPG" data-lightbox="images" data-title="Event Organizers">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/07.JPG" alt="Event Organizers">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column morocco events">
+        <a href="/home/aman/Downloads/image_gallery/Events/08.JPG" data-lightbox="images" data-title="The UltimateEngineer">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/08.JPG" alt="The UltimateEngineer">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column australia swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/23.JPG" data-lightbox="images" data-title="IET 2K14, Pantheon 2017">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/23.JPG" alt="IET 2K14, Pantheon 2017">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column india workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/16.JPG" data-lightbox="images" data-title="Web Development Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/16.JPG" alt="Web Development Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column kenya events">
+        <a href="/home/aman/Downloads/image_gallery/Events/09.JPG" data-lightbox="images" data-title="The IET Team">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Events/09.JPG" alt="The IET Team">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column japan workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/17.JPG" data-lightbox="images" data-title="Web Development Workshop">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/17.JPG" alt="Web Development Workshop">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column australia swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/24.JPG" data-lightbox="images" data-title="IET Executive Body, Pantheon 2017">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/24.JPG" alt="IET Executive Body, Pantheon 2017">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column australia swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/25.jpeg" data-lightbox="images" data-title="The IET Team, Bitotsav 2018">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/25.jpeg" alt="The IET Team, Bitotsav 2018">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column australia swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/26.jpeg" data-lightbox="images" data-title="The IET Team, Bitotsav 2018">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/26.jpeg" alt="The IET Team, Bitotsav 2018">
+        </a>
+      </div>
+
+      <div class="grid-item small-6 medium-4 large-3 column taiwan workshops">
+        <a href="/home/aman/Downloads/image_gallery/Workshops/18.JPG" data-lightbox="images" data-title="Tech Talk">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/Workshops/18.JPG" alt="Tech Talk">
+        </a>
+      </div>
+
+      <!-- <div class="grid-item small-6 medium-4 large-3 column japan workshops">
+        <a href="https://source.unsplash.com/6xh7H5tWj9c" data-lightbox="images" data-title="Tokyo, Japan">
+          <img class="grid-item-content" src="https://source.unsplash.com/6xh7H5tWj9c" alt="Tokyo, Japan">
+        </a>
+      </div> -->
+
+      <!-- <div class="grid-item small-6 medium-4 large-3 column libya events">
+        <a href="https://c1.staticflickr.com/7/6092/6343778146_078924abe4_b.jpg" data-lightbox="images" data-title="Tripoli, Libya">
+          <img class="grid-item-content" src="https://c1.staticflickr.com/7/6092/6343778146_078924abe4_b.jpg" alt="Tripoli, Libya">
+        </a>
+      </div> -->
+
+      <div class="grid-item small-6 medium-4 large-3 column new-zealand swag">
+        <a href="/home/aman/Downloads/image_gallery/swag/27.jpeg" data-lightbox="images" data-title="The IET Team, Bitotsav 2018">
+          <img class="grid-item-content" src="/home/aman/Downloads/image_gallery/swag/27.jpeg" alt="The IET Team, Bitotsav 2018">
+        </a>
+      </div>
+
+      <!-- <div class="grid-item small-6 medium-4 large-3 column namibia events">
+        <a href="https://c2.staticflickr.com/6/5336/17172901306_88decca7a4_h.jpg" data-lightbox="images" data-title="Windhoek, Namibia">
+          <img class="grid-item-content" src="https://c2.staticflickr.com/6/5336/17172901306_88decca7a4_h.jpg" alt="Windhoek, Namibia">
+        </a>
+      </div> -->
+    </div>
+
+  </div>
+
+  <!-- isotope
+  infinite scroll -->
+
+</main>
+
+<!-- <footer>
+  <p class="text-center">&copy City Capture 201</p>
+</footer> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js'></script>
+<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.js'></script>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
